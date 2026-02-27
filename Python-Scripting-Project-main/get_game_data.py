@@ -26,17 +26,6 @@ Project Steps/Requirements:
 - Run all of the game code
 '''
 
-# *****FINAL NOTES*****
-"""
-- Look into opening files in python with the 'with' statement,
-as well as what could happen if you dont close a file after opening it
-
-- Look into garbage collection in computer science
-
-- Look into the 'subprocess' module and the meaning of PIPE and how
-compiling code in python actually works
-"""
-
 # =======================================================================
 
 GAME_DIR_PATTERN = "game";
@@ -235,4 +224,5 @@ if __name__ == "__main__":
     main(source, target);
 
 # =======================================================================
+
 
